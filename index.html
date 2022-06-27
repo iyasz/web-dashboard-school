@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="logo.png" alt="logo">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Yasz Avellia</span>
+                    <span class="profession">Kelas : X RPL</span>
+                </div>
+            </div>
+
+            <i class='bx bx-cog toggle' style="font-size: 18px;"></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                        <input type="search" placeholder="Search..">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a id="a1" href="index.html#a1">
+                            <i class='bx bx-home icon'></i>
+                            <span  class="text vav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a id="a2" href="#a2">
+                            <i class='bx bx-book-open icon'></i>
+                            <span class="text vav-text">Pelajaran</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a id="a3" href="#a3">
+                            <i class='bx bx-book-reader icon'></i>
+                            <span class="text vav-text">Ulangan</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a id="a4" href="#a4">
+                            <i class='bx bx-task icon'></i>
+                            <span class="text vav-text">Nilai Saya</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a id="a5" href="#a5">
+                            <i class='bx bx-calendar-event icon'></i>
+                            <span class="text vav-text">Absensi Saya</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text vav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                        <span class="mode-text text">Dark Mode</span>
+
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+
+                    
+                </li>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-control">
+        <div class="navigation">
+            <a href="index.html#a1">
+                <img src="bm3logo.png" alt="logos">
+            </a>
+            <h3>SMK BM3</h3>
+            <div class="nav-trol">
+                <i class='bx bx-fullscreen'></i>
+                <i class='bx bxs-download'></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----- navigation -----  -->
+
+    <div class="grid-col-all">
+        <div class="grid">
+            <div class="grid-icon">
+                <i class='bx bx-user-pin'></i>
+            </div>
+            <div class="total-all">
+                <p>Jumlah Siswa</p>
+                <h3>654</h3>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="grid-icon">
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="total-all">
+                <p>Jumlah Guru</p>
+                <h3>48</h3>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="grid-icon">
+                <i class='bx bx-home-circle'></i>
+            </div>
+            <div class="total-all">
+                <p>Jumlah Kelas</p>
+                <h3>19</h3>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="grid-icon">
+                <i class='bx bx-laptop'></i>
+            </div>
+            <div class="total-all">
+                <p>Jumlah Jurusan</p>
+                <h3>3</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="meeting">
+        <div class="header-meet">
+            <i class='bx bx-video'></i> 
+            <p>Jadwal Meeting</p>
+        </div>
+        <div class="header-meet2">
+            <i class='bx bx-sort-a-z'></i>
+            <p>Kelas : X RPL</p>
+        </div>
+    </div>
+
+    <div class="table">
+        <div class="header-table">
+            <div class="hari">
+                <p>Hari</p>
+            </div>
+            <div class="mapel">
+                <p>Mapel</p>
+            </div>
+            <div class="guru">
+                <p>Guru</p>
+            </div>
+            <div class="dari">
+                <p>Dari</p>
+            </div>
+            <div class="sampai">
+                <p>Sampai</p>
+            </div>            
+        </div>
+        <div class="body-table">
+            <div class="senin">
+                <p>Senin</p>
+            </div>
+            <div class="matapel">
+                <div class="kjd">
+                    <p>KJD</p>
+                </div>
+                <div class="ddg">
+                    <p>DDG</p>
+                </div>
+                <div class="kimia">
+                    <p>Kimia</p>
+                </div>
+                <div class="sunda">
+                    <p>Sunda</p>
+                </div>
+            </div>
+            <div class="teach">
+                <div class="eka">
+                    <p>Ekashi</p>
+                </div>
+                <div class="gani">
+                    <p>Ghani Cakrawala</p>
+                </div>
+                <div class="yani">
+                    <p>Setiani</p>
+                </div>
+                <div class="restu">
+                    <p>Restu Restiani</p>
+                </div>
+            </div>
+            <div class="waktu-dari">
+                <div class="jam1">
+                    <p>08:00</p>
+                </div>
+                <div class="jam2">
+                    <p>09:00</p>
+                </div>
+                <div class="jam3">
+                    <p>09:40</p>
+                </div>
+                <div class="jam4">
+                    <p>11:00</p>
+                </div>
+            </div>
+            <div class="waktu-sampai">
+                <div class="jam11">
+                    <p>09:00</p>
+                </div>
+                <div class="jam22">
+                    <p>09:40</p>
+                </div>
+                <div class="jam33">
+                    <p>11:00</p>
+                </div>
+                <div class="jam44">
+                    <p>12:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="next">
+        <div class="prev">
+            <a href="#">Previous</a>
+        </div>
+        <div class="next1">
+            <a href="#">1</a>
+        </div>
+        <div class="next2">
+            <a href="#">2</a>
+        </div>
+        <div class="nextt">
+            <a href="#">Next</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
